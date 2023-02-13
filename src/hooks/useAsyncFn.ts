@@ -39,5 +39,35 @@ export type AsyncFnReturn<T extends FunctionReturnPromise = FunctionReturnPromis
   T
 ]
 
-const useAsyncFn = () => {}
-export default useAsyncFn
+export default function useAsyncFn<T extends FunctionReturnPromise>(
+  fn: T,
+  deps: DependencyList = [],
+  initialState: StateFromFunctionReturningPromise<T> = { loading: false }
+): AsyncFnReturn<T> {
+  const lastCallId = useRef(0)
+  const isMounted = useMountedState()
+  const [state, set] = useState<StateFromFunctionReturningPromise<T>>(initialState)
+
+  const callback = useCallback((...args: Parameters<T>): ReturnType<T> => {
+    // callId: 1
+    // lastCallId: 0
+    const callId = ++lastCallId.current
+    // 不 loading 的情况下进入
+    if (!state.loading) {
+      set(prevSate => ({ ...prevSate, loading: true }))
+    }
+    return fn(...args).then(
+      value => {
+        // TODO: callId === lastCallId.current 有什么用？
+        isMounted() && callId === lastCallId.current && set({ value, loading: false })
+        return value
+      },
+      error => {
+        isMounted() && callId === lastCallId.current && set({ error, loading: false })
+        return error
+      }
+    ) as ReturnType<T>
+  }, deps)
+
+  return [state, callback as unknown as T]
+}
