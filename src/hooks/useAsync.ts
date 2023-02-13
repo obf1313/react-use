@@ -1,8 +1,19 @@
 /**
- * @descriptor TODO
+ * @descriptor useEffect 时自调用的方法
  * @author obf1313
  */
-export type PromiseType<P extends Promise<any>> = P extends Promise<infer T> ? T : never
+import { DependencyList, useEffect } from 'react'
+import useAsyncFn from './useAsyncFn'
+import { FunctionReturnPromise } from './misc/types'
 
-const useAsync = () => {}
-export default useAsync
+export type { AsyncState, AsyncFnReturn } from './useAsyncFn'
+
+export default function useAsync<T extends FunctionReturnPromise>(fn: T, deps: DependencyList = []) {
+  const [state, callback] = useAsyncFn(fn, deps, {
+    loading: true,
+  })
+  useEffect(() => {
+    callback()
+  }, [callback])
+  return state
+}

@@ -1,17 +1,13 @@
 /**
- * @descriptor 使用 useAsyncFn
+ * @descriptor 使用 useAsync
  * @author obf1313
  */
-import useAsyncFn from '../hooks/useAsyncFn'
+import useAsync from '../hooks/useAsync'
 
 const Demo = () => {
-  const [state, doFetch] = useAsyncFn(async (isResolve: boolean) => {
+  const state = useAsync(async () => {
     const data: string = await new Promise((resolve, reject) => {
-      if (isResolve) {
-        resolve('resolve')
-      } else {
-        reject(new Error('error'))
-      }
+      resolve('resolve')
     })
     return data
   }, [])
@@ -25,7 +21,6 @@ const Demo = () => {
       ) : (
         <div>Value: {state.value}</div>
       )}
-      <button onClick={() => doFetch(true)}>Start loading</button>
     </div>
   )
 }
