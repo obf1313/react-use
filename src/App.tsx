@@ -1,10 +1,10 @@
 import './App.css'
-import AsyncRetry from './demo/AsyncRetry'
+import SetState from './demo/SetState'
 
 function App() {
   return (
     <div className="App">
-      <AsyncRetry />
+      <SetState />
     </div>
   )
 }
