@@ -1,10 +1,10 @@
 import './App.css'
-import SetState from './demo/SetState'
+import Video from './demo/Video'
 
 function App() {
   return (
     <div className="App">
-      <SetState />
+      <Video />
     </div>
   )
 }
