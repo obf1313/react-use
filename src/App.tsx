@@ -1,10 +1,10 @@
 import './App.css'
-import Battery from './demo/Battery'
+import Demo from './demo/BeforeUnload'
 
 function App() {
   return (
     <div className="App">
-      <Battery />
+      <Demo />
     </div>
   )
 }
