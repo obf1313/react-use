@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/BeforeUnload'
+import Demo from './demo/ClickAway'
 
 function App() {
   return (

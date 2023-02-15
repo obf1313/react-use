@@ -1,6 +1,7 @@
 export function on<T extends Window | Document | HTMLElement | EventTarget>(
   obj: T | null,
   // Parameters 取得函数的参数
+  // TODO: ...any 什么意思，我猜是剩下的参数都是 any
   ...args: Parameters<T['addEventListener']> | [string, Function | null, ...any]
 ): void {
   if (obj && obj.addEventListener) {
