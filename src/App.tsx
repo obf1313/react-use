@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/ClickAway'
+import Demo from './others/AvatarAnimation'
 
 function App() {
   return (
