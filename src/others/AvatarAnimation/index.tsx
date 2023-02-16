@@ -10,8 +10,9 @@ const Avatar = () => {
   const [firstIndex, setFirstIndex] = useState<number>(1)
   const [showAnimation, setShowAnimation] = useState<boolean>(false)
   useEffect(() => {
-    const id = setInterval(() => {
+    const id = setTimeout(() => {
       setShowAnimation(true)
+      clearTimeout(id)
     }, 2000)
     const id1 = setInterval(() => {
       setShowAnimation(false)
@@ -22,9 +23,12 @@ const Avatar = () => {
           return index + 1
         }
       })
+      const id2 = setTimeout(() => {
+        setShowAnimation(true)
+        clearTimeout(id2)
+      }, 2000)
     }, 5000)
     return () => {
-      clearInterval(id)
       clearInterval(id1)
     }
   }, [])
