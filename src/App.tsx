@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './others/AvatarAnimation'
+import Demo from './demo/Cookie'
 
 function App() {
   return (
