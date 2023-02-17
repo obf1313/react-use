@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/CopyToClipboard'
+import Demo from './demo/GetSet'
 
 function App() {
   return (
