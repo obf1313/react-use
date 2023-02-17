@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Cookie'
+import Demo from './demo/CopyToClipboard'
 
 function App() {
   return (
