@@ -4,7 +4,7 @@
  */
 import isEqual from 'lodash/isEqual'
 import useCounter from '../hooks/useCounter'
-import useCustomCompareEffect from '../hooks/useCustomCompareEffext'
+import useCustomCompareEffect from '../hooks/useCustomCompareEffect'
 
 const Demo = () => {
   const [count, { inc }] = useCounter(0)
