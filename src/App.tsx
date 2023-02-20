@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/CustomCompareEffect'
+import Demo from './demo/Debounce'
 
 function App() {
   return (
