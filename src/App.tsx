@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Debounce'
+import Demo from './demo/Default'
 
 function App() {
   return (
