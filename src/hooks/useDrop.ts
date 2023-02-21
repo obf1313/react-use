@@ -14,7 +14,7 @@ export interface DropAreaBond {
   onDragEnter: DragEventHandler
   onDragLeave: DragEventHandler
   onDrop: DragEventHandler
-  onPaster: ClipboardEventHandler
+  onPaste: ClipboardEventHandler
 }
 
 interface DropAreaOptions {
