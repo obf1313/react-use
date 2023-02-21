@@ -1,3 +1,5 @@
+export const noop = () => {}
+
 export function on<T extends Window | Document | HTMLElement | EventTarget>(
   obj: T | null,
   // Parameters 取得函数的参数
