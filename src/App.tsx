@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Favicon'
+import Demo from './demo/FirstMountState'
 
 function App() {
   return (
