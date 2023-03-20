@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Event'
+import Demo from './demo/Favicon'
 
 function App() {
   return (
