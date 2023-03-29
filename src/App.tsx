@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/FirstMountState'
+import Demo from './demo/Fullscreen'
 
 function App() {
   return (
