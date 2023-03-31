@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Fullscreen'
+import Demo from './demo/Geolocation'
 
 function App() {
   return (
