@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Geolocation'
+import Demo from './demo/GetSetState'
 
 function App() {
   return (
