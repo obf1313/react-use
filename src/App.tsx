@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/GetSetState'
+import Demo from './demo/HarmonicInterval'
 
 function App() {
   return (
