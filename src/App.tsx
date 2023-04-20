@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Intersection'
+import Demo from './demo/Interval'
 
 function App() {
   return (
