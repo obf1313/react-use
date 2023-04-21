@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Key'
+import Demo from './demo/KeyPress'
 
 function App() {
   return (
