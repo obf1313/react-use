@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Lates'
+import Demo from './demo/LocalStorage'
 
 function App() {
   return (
