@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/KeyPressEvent'
+import Demo from './demo/KeyboardJs'
 
 function App() {
   return (
