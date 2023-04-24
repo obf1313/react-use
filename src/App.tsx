@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/LockBodyScroll'
+import Demo from './demo/Logger'
 
 function App() {
   return (
