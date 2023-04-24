@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Logger'
+import Demo from './demo/LongPress'
 
 function App() {
   return (
