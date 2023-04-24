@@ -1,9 +1,9 @@
 import './App.css'
-import Demo from './demo/LocalStorage'
+import Demo from './demo/LockBodyScroll'
 
 function App() {
   return (
-    <div className="App">
+    <div style={{ height: '200vh' }}>
       <Demo />
     </div>
   )
