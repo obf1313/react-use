@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/LongPress'
+import Demo from './demo/Map'
 
 function App() {
   return (
