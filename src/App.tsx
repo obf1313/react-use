@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Map'
+import Demo from './demo/Measure'
 
 function App() {
   return (
