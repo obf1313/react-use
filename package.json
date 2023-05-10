@@ -18,6 +18,8 @@
     "js-cookie": "^3.0.1",
     "keyboardjs": "^2.7.0",
     "lodash": "^4.17.21",
+    "mobx": "^6.9.0",
+    "mobx-react": "^7.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -32,12 +34,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [

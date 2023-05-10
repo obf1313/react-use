@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Measure'
+import Demo from './others/MobX'
 
 function App() {
   return (
