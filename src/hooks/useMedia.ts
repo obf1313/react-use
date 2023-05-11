@@ -32,7 +32,7 @@ const useMedia = (query: string, defaultState?: boolean) => {
     setState(mql.matches)
     return () => {
       mounted = false
-      mql.addListener(onChange)
+      mql.removeListener(onChange)
     }
   }, [query])
 
