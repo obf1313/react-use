@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './others/MobX'
+import Demo from './demo/MeasureDirty'
 
 function App() {
   return (
