@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/MediaDevices'
+import Demo from './demo/MediatedState'
 
 function App() {
   return (
