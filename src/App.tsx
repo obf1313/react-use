@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/StateValidator'
+import Demo from './demo/MultiStateValidator'
 
 function App() {
   return (
