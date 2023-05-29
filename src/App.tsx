@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Mouse'
+import Demo from './demo/MouseWheel'
 
 function App() {
   return (
