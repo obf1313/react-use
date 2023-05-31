@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/MultiStateValidator'
+import Demo from './demo/NetworkState'
 
 function App() {
   return (
