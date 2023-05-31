@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Orientation'
+import Demo from './demo/PageLeave'
 
 function App() {
   return (
