@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/NetworkState'
+import Demo from './demo/Orientation'
 
 function App() {
   return (
