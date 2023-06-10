@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/PageLeave'
+import Demo from './demo/PinchZoom'
 
 function App() {
   return (
