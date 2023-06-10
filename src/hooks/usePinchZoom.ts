@@ -30,8 +30,6 @@ const usePinchZoom = (ref: RefObject<HTMLElement>) => {
 
   // 移动
   const pointermove_handler = (ev: PointerEvent) => {
-    console.log('ev', ev)
-
     // This function implements a 2-pointer horizontal pinch/zoom gesture.
     //
     // If the distance between the two pointers has increased (zoom in),

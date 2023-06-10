@@ -1,12 +1,8 @@
 import './App.css'
-import Demo from './demo/PinchZoom'
+import Demo from './demo/Previous'
 
 function App() {
-  return (
-    <div>
-      <Demo />
-    </div>
-  )
+  return <Demo />
 }
 
 export default App
