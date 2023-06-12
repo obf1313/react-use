@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/PreviousDistinct'
+import Demo from './demo/Promise'
 
 function App() {
   return <Demo />
