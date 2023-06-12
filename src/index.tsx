@@ -5,7 +5,6 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
-console.log('111')
 
 root.render(
   // 严格模式会 render 两次
