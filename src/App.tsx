@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Promise'
+import Demo from './demo/Queue'
 
 function App() {
   return <Demo />
