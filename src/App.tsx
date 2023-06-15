@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Scratch'
+import Demo from './demo/Scroll'
 
 function App() {
   return <Demo />
