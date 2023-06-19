@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Scroll'
+import Demo from './demo/ScrollbarWidth'
 
 function App() {
   return <Demo />

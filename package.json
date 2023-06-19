@@ -12,6 +12,7 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@types/throttle-debounce": "^5.0.0",
+    "@xobotyi/scrollbar-width": "^1.9.5",
     "classnames": "^2.3.2",
     "copy-to-clipboard": "^3.3.3",
     "fast-deep-equal": "^3.1.3",
