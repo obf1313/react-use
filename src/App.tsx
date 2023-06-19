@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/SessionStorage'
+import Demo from './demo/Set'
 
 function App() {
   return <Demo />
