@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Set'
+import Demo from './demo/ShallowCompareEffect'
 
 function App() {
   return <Demo />
