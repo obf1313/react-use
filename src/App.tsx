@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Spring'
+import Demo from './demo/StartTyping'
 
 function App() {
   return <Demo />
