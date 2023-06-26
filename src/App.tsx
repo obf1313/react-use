@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Slider'
+import Demo from './demo/Speech'
 
 function App() {
   return <Demo />
