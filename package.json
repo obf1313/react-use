@@ -26,6 +26,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-universal-interface": "^0.6.2",
+    "rebound": "^0.1.0",
     "resize-observer-polyfill": "^1.5.1",
     "screenfull": "^6.0.2",
     "set-harmonic-interval": "^1.0.1",

@@ -7774,6 +7774,11 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
+rebound@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmmirror.com/rebound/-/rebound-0.1.0.tgz#0638c61a93666bb515a58a03e1cfb34021e88b72"
+  integrity sha512-pKCVuoHvyKPr0tWS+CTCbJcUgifaH3K0bcZlHZpUS7GdNK/m78QgndlZH6+JpvXzuTwbUKZCiHgix0sce433uw==
+
 recursive-readdir@^2.2.2:
   version "2.2.3"
   resolved "https://registry.npmmirror.com/recursive-readdir/-/recursive-readdir-2.2.3.tgz#e726f328c0d69153bcabd5c322d3195252379372"
