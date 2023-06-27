@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Throttle'
+import Demo from './demo/Timeout'
 
 function App() {
   return <Demo />
