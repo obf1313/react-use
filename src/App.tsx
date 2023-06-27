@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Timeout'
+import Demo from './demo/Title'
 
 function App() {
   return <Demo />
