@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react'
-import useThrottle from '../hooks/useThrottle'
+// import useThrottle from '../hooks/useThrottle'
+import useThrottleFn from '../hooks/useThrottleFn'
 
 const Demo = () => {
   const [state, setState] = useState(0)
-  const throttledValue = useThrottle(state, 1000)
-  // const throttledValue = useThrottleFn(value => value, 200, [value]);
+  // const throttledValue = useThrottle(state, 1000)
+  const throttledValue = useThrottleFn(state => state, 1000, [state])
 
   useEffect(() => {
     const id = setInterval(() => {
