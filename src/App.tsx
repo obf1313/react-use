@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/UnmountPromise'
+import Demo from './demo/Vibrate'
 
 function App() {
   return <Demo />
