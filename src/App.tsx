@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Title'
+import Demo from './demo/Tween'
 
 function App() {
   return <Demo />

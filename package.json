@@ -31,6 +31,7 @@
     "screenfull": "^6.0.2",
     "set-harmonic-interval": "^1.0.1",
     "throttle-debounce": "^5.0.0",
+    "ts-easing": "^0.2.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
