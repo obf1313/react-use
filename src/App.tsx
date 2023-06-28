@@ -1,5 +1,5 @@
 import './App.css'
-import Demo from './demo/Vibrate'
+import Demo from './demo/WindowScroll'
 
 function App() {
   return <Demo />
